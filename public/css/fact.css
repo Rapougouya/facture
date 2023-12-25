@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+}
+
+.container {
+    display: flex; 
+    align-items: flex-start; 
+}
+
+.contact {
+    text-align: right;
+    margin-left: 6%;
+    margin-top: 3%;
+    font-size: 3.5vw; 
+}
+
+.nyxgroup {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 3.5vw; /* Utiliser des unités relatives comme vw pour la taille de police */
+}
+
+.phone-number {
+    margin-bottom: 1%;
+    font-weight: bold;
+} 
+
+.social-media {
+    padding: 1%;
+    margin-left: 4%;
+    margin-top: 5%;
+}
+
+.image {
+    width: 5vw;
+    height: 5vw;
+    border-radius: 50%;
+}
+
+.identite {
+    margin-bottom: 4%;
+    margin-left: 2%;
+    line-height: 1.5;
+    font-weight: bold;
+    font-size: 3.5vw; 
+}
+
+.numfact {
+    margin-left: 20%;
+    text-align: left;
+    font-size: 3.5vw; /* Utiliser des unités relatives comme vw pour la taille de police */
+}
+
+table {
+    border-collapse: collapse;
+    max-width: 100%;
+
+    /* margin-bottom: 4%;
+    margin-left: 2%; */
+} 
+
+.tablp{
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.tabl3{
+    max-width: 97%;
+}
+
+ th, td {
+    border: 0.30vw solid black; 
+    padding: 4.5vw; 
+    text-align: left;
+    font-weight: bold;
+} 
+
+
+
+/* th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+    font-weight: bold;
+} */
+
+.fact {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3vw; /* Utiliser des unités relatives comme vw pour la taille de police */
+    font-weight: bold;
+    gap: 0.5vw; /* Utiliser des unités relatives pour l'espacement */
+}
+
+.tr1 {
+    font-size: 3vw; /* Utiliser des unités relatives comme vw pour la taille de police */
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+} 
+
+.titr {
+    margin-left: 4%;
+    margin-top: 4%;
+    font-size: 4vw; /* Utiliser des unités relatives comme vw pour la taille de police */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    font-weight: bold;
+    font-size: 3vw; /* Utiliser des unités relatives comme vw pour la taille de police */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
